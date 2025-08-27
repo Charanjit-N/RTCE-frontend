@@ -1,0 +1,145 @@
+.homePage {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+.homePage-form {
+    background: #2f313d;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+footer a {
+    color: #ffff00;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.homePage-Logo {
+    height:60px;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    background: #eee;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.joinBtn,
+.leaveRoomBtn {
+    background: yellow;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.joinBtn:hover,
+.leaveRoomBtn:hover {
+    background: rgb(255, 191, 0);
+}
+
+.createInfo {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.createNewBtn {
+    color: yellow;
+    text-decoration: none;
+    border-bottom: 1px solid yellow;
+    transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+    color: rgb(255, 191, 0);
+    border-color: rgb(255, 191, 0)
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+}
+
+.left-container {
+    background: black;
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.left-inner {
+    flex: 1;
+}
+
+.clientsList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+.userName {
+    margin-top: 10px;
+}
+
+.editorPage-logo {
+    border-bottom: 1px solid yellow;
+    padding-bottom: 10px;
+}
+
+.editorPage-logoImage{
+    height: 43px;
+}
+
+.leaveRoomBtn {
+    width: 100%;
+    margin-top: 20px;
+}
+.CodeMirror {
+    min-height: calc(100vh - 20px);
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+}
