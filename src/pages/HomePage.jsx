@@ -19,7 +19,7 @@ const HomePage = () => {
   useEffect(() => {
         const checkServerStatus = async () => {
             try {
-                // Use the HTTP URL for your backend, not the WebSocket URL
+                // Using the HTTP URL for your backen.
                 const healthUrl = process.env.REACT_APP_BACKEND_URL.replace('/ws', '').replace('ws://', 'http://').replace('wss://', 'https://') + '/checkonline';
                 
                 const response = await fetch(healthUrl);
