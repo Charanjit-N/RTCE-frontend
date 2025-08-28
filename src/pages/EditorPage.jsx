@@ -124,7 +124,7 @@ const EditorPage = () => {
             <img
               className="editorPage-logoImage"
               src="/collabcodelogo.png"
-              alt="logo"
+              alt="collabcodelogo"
             />
           </div>
           <h3>Connected : </h3>
