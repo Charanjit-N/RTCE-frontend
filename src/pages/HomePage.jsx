@@ -72,8 +72,8 @@ const HomePage = () => {
       <div className="homePage-form">
         <img
           className="homePage-Logo"
-          src="/code-sync.png"
-          alt="code-sync-logo"
+          src="/collabcodelogo.png"
+          alt="collabcodelogo"
         />
         <h4 className="label">Enter Room ID for collaborating</h4>
         <div className="inputs">
